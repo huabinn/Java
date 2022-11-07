@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e2ee5ea-f37a-43f9-8c03-2a1ae930b524" name="Default Changelist" comment="" />
+    <list default="true" id="ebc1c8e0-1527-4bd7-b3ac-12696c58af0c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="D:\App\Java\apache-maven-3.8.6\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../App/Java/apache-maven-3.8.6" />
-        <option name="userSettingsFile" value="D:\App\Java\apache-maven-3.8.6\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2G4zjybfhKW3iRFLAZglR9uUrro" />
+  <component name="ProjectId" id="2HDH4cZeBChrFwVRCcHB6PPpl1W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,83 +18,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RunManager" selected="JUnit.ConnectionTest.testConnection5">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.connection" />
-      <option name="MAIN_CLASS_NAME" value="com.connection.ConnectionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectionTest.testConnection5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.connection" />
-      <option name="MAIN_CLASS_NAME" value="com.connection.ConnectionTest" />
-      <option name="METHOD_NAME" value="testConnection5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ConnectionTest.testConnection5" />
-        <item itemvalue="JUnit.ConnectionTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e2ee5ea-f37a-43f9-8c03-2a1ae930b524" name="Default Changelist" comment="" />
-      <created>1665662800036</created>
+      <changelist id="ebc1c8e0-1527-4bd7-b3ac-12696c58af0c" name="Default Changelist" comment="" />
+      <created>1667812550361</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665662800036</updated>
-      <workItem from="1665662801540" duration="67000" />
-      <workItem from="1665663073878" duration="95000" />
-      <workItem from="1665663180571" duration="140000" />
-      <workItem from="1665712493959" duration="964000" />
-      <workItem from="1665713540440" duration="4000" />
-      <workItem from="1667467818216" duration="873000" />
+      <updated>1667812550361</updated>
+      <workItem from="1667812551872" duration="4000" />
+      <workItem from="1667812564053" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
