@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f31cb21e-ffb1-409d-bd20-c024ad9a33dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../JDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JDBC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/CompareTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/DateTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/IPAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/Java8DateTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/SysIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/CompareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/DateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/IPAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/Java8DateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/SysIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/string.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\App\Java\apache-maven-3.8.4\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../App/Java/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\App\Java\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IUODvpFtsCGOaWiEqEIrKHnq7b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="JavaSE-1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis_resultMap" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\binn\Java\SSM\MyBatis\mybatis_cache\src\main\resources" />
+      <recent name="D:\binn\Java\SSM\MyBatis\mybatis_dynamicSQL\src\main\resources" />
+      <recent name="D:\binn\Java\SSM\MyBatis\mybatis_resultMap\src\main\resources" />
+      <recent name="D:\binn\Java\SSM\MyBatis\mybatis_parameter\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\binn\Java\SSM\MyBatis\mybatis_parameter\src\main\resources\com\mybatis\mapper" />
+      <recent name="D:\binn\Java\SSM\MyBatis\hello_mybatis\src\main\java\com\mybatis\mapper" />
+      <recent name="D:\binn\Java\SSM\MyBatis\hello_mybatis\src\main\resources\com\mybatis\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mybatis.bean" />
+      <recent name="com.mybatis.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CacheTest.testCache">
+    <configuration name="CacheTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.CacheTest" />
+      <option name="METHOD_NAME" value="testCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheTest.testCacheBug" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.CacheTest" />
+      <option name="METHOD_NAME" value="testCacheBug" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheTest.testGetEmpByEmpId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.CacheTest" />
+      <option name="METHOD_NAME" value="testGetEmpByEmpId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicSQLTest.testGetDeptAndEmpByDeptId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_dynamicSQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.DynamicSQLTest" />
+      <option name="METHOD_NAME" value="testGetDeptAndEmpByDeptId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageLimitTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.PageLimitTest" />
+      <option name="METHOD_NAME" value="testPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CacheTest.testCache" />
+        <item itemvalue="JUnit.PageLimitTest.testPage" />
+        <item itemvalue="JUnit.CacheTest.testCacheBug" />
+        <item itemvalue="JUnit.CacheTest.testGetEmpByEmpId" />
+        <item itemvalue="JUnit.DynamicSQLTest.testGetDeptAndEmpByDeptId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f31cb21e-ffb1-409d-bd20-c024ad9a33dd" name="Default Changelist" comment="" />
+      <created>1670232579249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670232579249</updated>
+      <workItem from="1670232580460" duration="1133000" />
+      <workItem from="1670288271336" duration="2153000" />
+      <workItem from="1670307686080" duration="171000" />
+      <workItem from="1670308034221" duration="17065000" />
+      <workItem from="1670373601403" duration="15832000" />
+      <workItem from="1670460274764" duration="6410000" />
+      <workItem from="1670468127814" duration="20027000" />
+      <workItem from="1670546858599" duration="19176000" />
+      <workItem from="1670577042336" duration="85000" />
+      <workItem from="1670577174353" duration="95000" />
+      <workItem from="1670577399335" duration="236000" />
+      <workItem from="1670577747529" duration="34000" />
+      <workItem from="1670577787180" duration="11000" />
+      <workItem from="1670577839574" duration="5000" />
+      <workItem from="1670577853918" duration="26000" />
+      <workItem from="1670577976324" duration="53000" />
+      <workItem from="1670578032644" duration="52000" />
+      <workItem from="1670578103982" duration="13000" />
+      <workItem from="1670578259435" duration="22000" />
+      <workItem from="1670578293227" duration="312000" />
+      <workItem from="1670578618091" duration="18000" />
+      <workItem from="1670578651999" duration="4000" />
+      <workItem from="1670578686703" duration="27000" />
+      <workItem from="1670578727221" duration="338000" />
+      <workItem from="1670579080741" duration="17000" />
+      <workItem from="1670579170235" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

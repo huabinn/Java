@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.UserMapper">
+    <!--
+        ${}: 是 statement 拼串 (注意双引号)
+        #{}: 是占位符
+        不能使用#{}的情况：
+            若参数类型是String, #{}会把''带进 sql 语句中，此时需要使用 ${},因为${}是拼串的
+        1. 如果有两个及以上的参数应该使用 #{param1} #{param2}的方式定义变量 | #{arg0} #{arg1}
+        2. 使用 Map 的时候以 Map 的字段名命名即可
+        3. 若mapper接口的参数为实体类
+            直接使用实体类的属性名即可
+        4. 可以在mapper接口的参数中使用 @Param 注解
+            可以使用 Map 的键的形式调用参数
+            可以使用 #{param2} 的形式调用参数
+    -->
+    <select id="getUserByUsername" resultType="User">
+        <!--select * from t_user where username = '${username}'-->
+        select * from t_user where username = #{username}
+    </select>
+
+    <!--以 map 的形式请求-->
+    <select id="checkLoginByMap" resultType="User">
+        select * from t_user where username = #{username} and password = #{password}
+    </select>
+
+    <!--
+        若mapper接口的参数为实体类
+            直接使用实体类的属性名即可
+    -->
+    <!--
+        useGeneratedKeys: 获取自增主键
+        keyProperty： 将自增主键的值赋值给 User.id
+    -->
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into t_user values(null, #{username}, #{password}, #{age}, #{gender}, #{email})
+    </insert>
+
+    <!--
+        以 param 的形式请求
+        在接口文件中，已经把参数放进了 Map
+        可以使用 #{param2} 的形式调用参数
+    -->
+    <select id="checkLoginByParam" resultType="User">
+        select * from t_user where username = #{username} and password = #{param2}
+    </select>
+
+    <!--Map<String, Object> getUserByIdToMap(@Param("id") Integer id);-->
+    <select id="getUserByIdToMap" resultType="map">
+        select * from t_user where id = #{id}
+    </select>
+
+    <!--List<Map<String, Object>> getAllUserToMap();-->
+    <select id="getAllUserToMap" resultType="map">
+        select * from t_user
+    </select>
+
+    <!--模糊查询-->
+    <!--List<Map<String, Object>> getUserByLike(@Param("like") String like);-->
+    <select id="getUserByLike" resultType="map">
+        <!--select * from t_user where username like '%${like}%'-->
+        <!--select * from t_user where username like concat('%', #{like}, '%')-->
+        select * from t_user where username like "%"#{like}"%"
+    </select>
+
+</mapper>

@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebc1c8e0-1527-4bd7-b3ac-12696c58af0c" name="Default Changelist" comment="" />
+    <list default="true" id="ebc1c8e0-1527-4bd7-b3ac-12696c58af0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/bin/basics/CompareTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/bin/basics/DateTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/bin/basics/IPAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/bin/basics/Java8DateTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/bin/basics/SysIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/bin/basics/string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/src/basics/CompareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/src/basics/DateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/src/basics/IPAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/src/basics/Java8DateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/src/basics/SysIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramDesign/src/basics/string.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="2HDH4cZeBChrFwVRCcHB6PPpl1W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +50,11 @@
       <updated>1667812550361</updated>
       <workItem from="1667812551872" duration="4000" />
       <workItem from="1667812564053" duration="3000" />
+      <workItem from="1667813407469" duration="7000" />
+      <workItem from="1668760784665" duration="1377000" />
+      <workItem from="1669964660940" duration="24000" />
+      <workItem from="1670319442667" duration="600000" />
+      <workItem from="1670327682357" duration="915000" />
     </task>
     <servers />
   </component>

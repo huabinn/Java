@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.EmpMapper">
+
+    <!--
+        使用驼峰命名
+            sql 自定义返回字段
+            在 mybatis-config.xml 的settings中设置
+            使用自定义映射 resultMap
+    -->
+
+    <!--
+        resultMap: 设置自定义映射关系
+        id: 唯一标识
+        type: 处理映射关系的实体类类型
+        id: 处理表的主键和实体类属性的映射关系
+        result: 处理普通字段与实体类中属性的映射关系
+        association: 处理多对一的映射关闭
+        collection: 处理一对多的映射关系
+        column: sql 查询出的某个字段
+        property: 实体类中属性名
+    -->
+    <resultMap id="empResultMap" type="Emp">
+        <id column="emp_id" property="empId"></id>
+        <result column="emp_name" property="empName"></result>
+        <result column="age" property="age"></result>
+        <result column="gender" property="gender"></result>
+    </resultMap>
+
+    <!--List<Emp> getEmpByEmpId(@Param("empId") Integer empId);-->
+   <select id="getEmpByEmpId" resultMap="empResultMap">
+       select * from t_emp where emp_id = #{empId}
+   </select>
+    <select id="getEmpByDeptId" resultMap="empResultMap">
+        select * from t_emp where dept_id = #{deptId}
+    </select>
+
+
+    <!--<select id="getEmpByEmpId" resultType="map">
+        select emp_id empId, emp_name empName, age, gender, dept_id deptId from t_emp where emp_id = #{empId}
+    </select>-->
+
+    <!--
+        表关联查询
+        1. 处理多对一关系
+            property="dept.deptId"
+        2. 使用 <association/> 标签
+            property：实体类的属性名
+            javaType：实体类的类型
+        3. 分布查询 可以配合延迟加载进行 sql 性能提升
+            使用 <association/> 标签
+                property：实体类的属性名
+                fetchType: eager | lazy 立即加载 | 延迟加载
+                select: 设置分布查询的sql 唯一标识
+                column: 将查询出的某个字段作为分布查询的 sql 条件
+    -->
+    <resultMap id="empAndDeptResultMap" type="Emp">
+        <id column="emp_id" property="empId"></id>
+        <result column="emp_name" property="empName"></result>
+        <result column="age" property="age"></result>
+        <result column="gender" property="gender"></result>
+        <!--<result column="dept_id" property="dept.deptId"></result>
+        <result column="dept_name" property="dept.deptName"></result>-->
+        <!--<association property="dept" javaType="Dept">
+            <id column="dept_id" property="deptId"></id>
+            <result column="dept_name" property="deptName"></result>
+        </association>-->
+        <association property="dept" fetchType="lazy"
+                     select="com.mybatis.mapper.DeptMapper.getDeptByDeptId"
+                     column="dept_id"></association>
+    </resultMap>
+
+    <!--表关联查询-->
+    <!--List<Emp> getEmpAndDeptByEmpId();-->
+    <select id="getEmpAndDept" resultMap="empAndDeptResultMap">
+        SELECT * FROM t_emp LEFT JOIN t_dept ON t_emp.dept_id = t_dept.dept_id
+    </select>
+
+    <!--分布查询-->
+    <!--Emp getEmpAndDeptByEmpId(@Param("empId") Integer empId);-->
+    <select id="getEmpAndDeptByEmpId" resultMap="empAndDeptResultMap">
+        SELECT * FROM t_emp where emp_id = #{empId}
+    </select>
+</mapper>

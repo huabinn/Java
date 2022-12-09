@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mapper.CacheMapper">
+
+    <cache/>
+
+    <resultMap id="empResultMap" type="Emp">
+        <id column="emp_id" property="empId"></id>
+        <result column="emp_name" property="empName"></result>
+        <result column="age" property="age"></result>
+        <result column="gender" property="gender"></result>
+    </resultMap>
+
+    <!--List<Emp> getEmpByEmpId(@Param("empId") Integer empId);-->
+    <select id="getEmpByEmpId" resultMap="empResultMap">
+        select * from t_emp where emp_id = #{empId}
+    </select>
+
+    <!--int changeEmpByEmpId(@Param("empId") Integer empId);-->
+    <update id="changeEmpByEmpId">
+        update t_emp set emp_name = "binbin" where emp_id = #{empId}
+    </update>
+
+    <!--void insertMoreEmp(@Param("emps") List<Emp> emps);-->
+    <insert id="insertMoreEmp">
+        insert into t_emp values
+        <foreach collection="emps" item="emp" separator=",">
+            (null, #{emp.empName}, #{emp.age}, #{emp.gender}, null)
+        </foreach>
+    </insert>
+
+    <!--List<Emp> getAllEmp();-->
+    <select id="getAllEmp" resultMap="empResultMap">
+        select * from t_emp
+    </select>
+
+</mapper>
