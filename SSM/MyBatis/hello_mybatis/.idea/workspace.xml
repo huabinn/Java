@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31cb21e-ffb1-409d-bd20-c024ad9a33dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../JDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JDBC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/CompareTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/DateTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/IPAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/Java8DateTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/SysIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/bin/basics/string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/CompareTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/DateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/IPAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/Java8DateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/SysIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProgramDesign/src/basics/string.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2IUODvpFtsCGOaWiEqEIrKHnq7b" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,7 +57,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -89,7 +76,7 @@
       <recent name="com.mybatis.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CacheTest.testCache">
+  <component name="RunManager" selected="JUnit.DynamicSQLTest.testGetDeptAndEmpByDeptId">
     <configuration name="CacheTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_cache" />
       <extension name="coverage">
@@ -172,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DynamicSQLTest.testGetDeptAndEmpByDeptId" />
         <item itemvalue="JUnit.CacheTest.testCache" />
         <item itemvalue="JUnit.PageLimitTest.testPage" />
         <item itemvalue="JUnit.CacheTest.testCacheBug" />
         <item itemvalue="JUnit.CacheTest.testGetEmpByEmpId" />
-        <item itemvalue="JUnit.DynamicSQLTest.testGetDeptAndEmpByDeptId" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +201,15 @@
       <workItem from="1670578727221" duration="338000" />
       <workItem from="1670579080741" duration="17000" />
       <workItem from="1670579170235" duration="8000" />
+      <workItem from="1670579216082" duration="160000" />
+      <workItem from="1670806389816" duration="1900000" />
+      <workItem from="1670811555071" duration="3971000" />
+      <workItem from="1670827233632" duration="1927000" />
+      <workItem from="1670912407781" duration="2061000" />
+      <workItem from="1671070261123" duration="867000" />
+      <workItem from="1671268543862" duration="223000" />
+      <workItem from="1671288179256" duration="621000" />
+      <workItem from="1671345060484" duration="365000" />
     </task>
     <servers />
   </component>

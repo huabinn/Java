@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="user" scope="singleton" class="com.spring.bean.User" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="id" value="1001"></property>
+        <property name="name" value="张三"></property>
+    </bean>
+
+    <!--
+        添加初始化处理器
+            对该 IOC 容器中的每一个 bean 都生效
+    -->
+    <bean id="MyBeanPostProcessor" class="com.spring.bean.MyBeanPostProcessor"></bean>
+</beans>

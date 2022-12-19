@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        通过 userController 控制 userService 控制 userDao
+        实现三层控制
+        autowire: default | no | byType | byName
+            default | no: 不装配(默认值)
+            byType: 根据赋值属性的类型，在 IOC 容器中 匹配某个 bean (即class中返回的类型),为属性赋值 (用的最多)
+                IOC 容器中有且只有一个类型一样的 bean 才可以
+            byName: 根据将要赋值属性的属性名作为 bean 的 id 在 IOC 容器中匹配某个 bean, 为属性赋值
+    -->
+    <bean id="userController" class="com.spring.controller.UserController" autowire="byName">
+        <!--原始方法，不使用装配-->
+        <!--<property name="userService" ref="userService"></property>-->
+    </bean>
+
+    <bean id="userService" class="com.spring.service.impl.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+
+    <bean id="userDao" class="com.spring.dao.impl.UserDaoImpl"></bean>
+
+</beans>
