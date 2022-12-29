@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmvc_helloworld" />
+        <module name="springmvc_extension" />
+        <module name="springmvc_annotation" />
+        <module name="springmvc_ajax" />
+        <module name="springmvc-rest" />
+        <module name="spring_listener" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
