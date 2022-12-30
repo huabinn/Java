@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f31cb21e-ffb1-409d-bd20-c024ad9a33dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_resultMap/src/main/resources/com/mybatis/mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_resultMap/src/main/resources/com/mybatis/mapper/EmpMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringMVC/spring_listener/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringMVC/spring_listener/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,18 @@
       <recent name="com.mybatis.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DynamicSQLTest.testGetDeptAndEmpByDeptId">
+  <component name="RunManager" selected="JUnit.MybatisTest.getAllUser">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CacheTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_cache" />
       <extension name="coverage">
@@ -109,22 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CacheTest.testGetEmpByEmpId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_cache" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.CacheTest" />
-      <option name="METHOD_NAME" value="testGetEmpByEmpId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DynamicSQLTest.testGetDeptAndEmpByDeptId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_dynamicSQL" />
       <extension name="coverage">
@@ -136,6 +133,22 @@
       <option name="PACKAGE_NAME" value="com.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.mybatis.DynamicSQLTest" />
       <option name="METHOD_NAME" value="testGetDeptAndEmpByDeptId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.getAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="getAllUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.getAllUser" />
+        <item itemvalue="JUnit.PageLimitTest.testPage" />
         <item itemvalue="JUnit.DynamicSQLTest.testGetDeptAndEmpByDeptId" />
         <item itemvalue="JUnit.CacheTest.testCache" />
-        <item itemvalue="JUnit.PageLimitTest.testPage" />
         <item itemvalue="JUnit.CacheTest.testCacheBug" />
-        <item itemvalue="JUnit.CacheTest.testGetEmpByEmpId" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +223,10 @@
       <workItem from="1671268543862" duration="223000" />
       <workItem from="1671288179256" duration="621000" />
       <workItem from="1671345060484" duration="365000" />
+      <workItem from="1672303152335" duration="71000" />
+      <workItem from="1672303384146" duration="22000" />
+      <workItem from="1672305516753" duration="1410000" />
+      <workItem from="1672365044001" duration="9295000" />
     </task>
     <servers />
   </component>

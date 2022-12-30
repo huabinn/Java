@@ -15,12 +15,12 @@
         resultMap: 设置自定义映射关系
         id: 唯一标识
         type: 处理映射关系的实体类类型
-        id: 处理表的主键和实体类属性的映射关系
-        result: 处理普通字段与实体类中属性的映射关系
-        association: 处理多对一的映射关闭
-        collection: 处理一对多的映射关系
-        column: sql 查询出的某个字段
-        property: 实体类中属性名
+            id: 处理表的主键和实体类属性的映射关系
+            result: 处理普通字段与实体类中属性的映射关系
+            association: 处理多对一的映射关闭
+            collection: 处理一对多的映射关系
+                column: sql 查询出的某个字段
+                property: 实体类中属性名
     -->
     <resultMap id="empResultMap" type="Emp">
         <id column="emp_id" property="empId"></id>
